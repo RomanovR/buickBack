@@ -1,0 +1,52 @@
+{
+  "clientType": "virt",
+  "destination": "real",
+  "script": [
+    {
+      "typeMov": "u-turn",
+      "phase": "flat",
+      "speed": 180,
+      "time": 0,
+      "acc": 0
+    },
+    {
+      "typeMov": "u-turn",
+      "phase": "flat",
+      "speed": 360,
+      "time": 0,
+      "acc": 0
+    }
+  ]
+}
+
+{
+  "taskMov": {
+    "leftWheelCounter": 0,
+    "rightWheelCounter": 0
+  }
+}
+
+
+
+{
+  "taskMov": [
+    {
+      "leftWheelCounter": 20,
+      "rightWheelCounter": 20
+    },
+    {
+      "leftWheelCounter": 40,
+      "rightWheelCounter": 40
+    },
+    {
+      "leftWheelCounter": 85,
+      "rightWheelCounter": 85
+    }
+  ]
+}
+
+
+{
+  "delivered": true,
+  "battery": 100
+}
